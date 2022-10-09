@@ -25,7 +25,6 @@ body {
   align-items: center;
   justify-content: flex-end;
   color: black;
-  font-weight: bold;
   box-sizing: border-box;
 }
 
@@ -60,4 +59,10 @@ button:hover {
 
 .equals:hover {
   background-color: rgb(194, 93, 10);
+}
+
+@media screen and (max-width: 480px){
+  .wrapper{
+    width: 380px;
+  }
 }
