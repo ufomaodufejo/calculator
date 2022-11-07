@@ -1,16 +1,15 @@
-body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: white;
+*{
+ margin: 0;
+ padding: 0;
+ overflow: hidden;
 }
 
 .wrapper{
  width: 350px;
  height: 540px;
  padding: 10px;
+ margin: 0;
  border-radius: 10px;
- margin: 20px;
  background: black;
 }
 
@@ -61,8 +60,12 @@ button:hover {
   background-color: rgb(194, 93, 10);
 }
 
-@media screen and (max-width: 480px){
+@media screen and (max-width: 550px){
   .wrapper{
-    width: 380px;
-  }
+    width: 360px;
+    height: 500px;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0;
+   }
 }
